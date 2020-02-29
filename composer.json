@@ -1,0 +1,30 @@
+{
+  "name": "cadjou/webdavtools",
+  "type": "grav-plugin",
+  "description": "Use WebDAV connexion to transfert file",
+  "keywords": ["plugin"],
+  "homepage": "https://github.com/cadjou/grav-plugin-webdavtools",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "cadjou",
+      "email": "cadjou@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.3",
+    "sabre/dav": "~3.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Grav\\Plugin\\Webdavtools\\": "classes/"
+    },
+    "classmap":  ["webdavtools.php"]
+  },
+  "config": {
+    "platform": {
+      "php": "7.1.3"
+    }
+  }
+}
